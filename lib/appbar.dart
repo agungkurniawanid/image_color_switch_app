@@ -20,15 +20,8 @@ class _MyAppBarState extends State<MyAppBar> {
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Icon(
-            Icons.menu,
-            size: 40.0,
-            color: Colors.black,
-          ),
-          const Text(
-            "Change Theme",
-            style: TextStyle(color: Colors.black),
-          ),
+          const Icon(Icons.menu, size: 40.0, color: Colors.black),
+          const Text("Change Theme", style: TextStyle(color: Colors.black)),
           ClipOval(
             child: Image.network(
               "https://i.imgur.com/0g1mNKo.jpg",

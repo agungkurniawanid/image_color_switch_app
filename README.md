@@ -1,4 +1,4 @@
-# anonymous_method
+# image_color_switch_app
 
 A new Flutter project.
 

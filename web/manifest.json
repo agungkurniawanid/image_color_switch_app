@@ -1,6 +1,6 @@
 {
-    "name": "anonymous_method",
-    "short_name": "anonymous_method",
+    "name": "image_color_switch_app",
+    "short_name": "image_color_switch_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

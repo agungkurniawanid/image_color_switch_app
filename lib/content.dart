@@ -68,47 +68,32 @@ class _MyContentState extends State<MyContent> {
                   "Choose Theme",
                   style: TextStyle(color: Colors.black, fontSize: 24.0),
                 ),
-                SizedBox(
-                  height: 5.0,
-                ),
+                SizedBox(height: 5.0),
                 Text(
                   "Pilih tema dari warna gambar sesuai yang \ntersedia dibawah ini!",
-                  style: TextStyle(
-                    color: Color(0xFF757577),
-                    fontSize: 16.0,
-                  ),
-                )
+                  style: TextStyle(color: Color(0xFF757577), fontSize: 16.0),
+                ),
               ],
             ),
           ),
-          const SizedBox(
-            height: 50.0,
-          ),
+          const SizedBox(height: 50.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Image.network(
-                    imgchoose,
-                    width: 250.0,
-                    height: 250.0,
-                  ),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
+                  Image.network(imgchoose, width: 250.0, height: 250.0),
+                  const SizedBox(height: 10.0),
                   Text(
                     "${textTheme.toString()} Theme Image",
                     style: const TextStyle(color: Colors.white, fontSize: 18.0),
                   ),
                 ],
-              )
+              ),
             ],
           ),
-          const SizedBox(
-            height: 20.0,
-          ),
+          const SizedBox(height: 20.0),
           Container(
             width: MediaQuery.of(context).size.width,
             padding: const EdgeInsets.all(20.0),
@@ -133,7 +118,7 @@ class _MyContentState extends State<MyContent> {
                 );
               }),
             ),
-          )
+          ),
         ],
       ),
     );
